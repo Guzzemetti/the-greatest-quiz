@@ -2,19 +2,21 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 div{
     width: 50%;
 }
 
+/* ________________________Start Button__________________________ */
 button{
     justify-self: center;
 }
 
 #startButton:active {
     transform: translateY(2px);
-  }
+}
 
 #startButton:hover{
     transition-duration: 0.2s;
@@ -30,8 +32,17 @@ button{
     height: 2.5rem;
     border-radius: 12px;
 }
+/* __________________________________________________ */
 
 
-#title{
-    background-color: aqua;
+#headerDiv{
+    border-style: solid;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
