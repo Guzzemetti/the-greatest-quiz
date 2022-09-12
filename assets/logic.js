@@ -1,7 +1,7 @@
-const headerDiv = document.getElementById("headerDiv");
-
-
+const startPage = document.getElementById("startPage");
+const quizPage = document.getElementById("quizPage");
 
 function change(){
-    headerDiv.style.color = "blue"
+    startPage.setAttribute("class", "hide")
+    quizPage.removeAttribute("class")
 }

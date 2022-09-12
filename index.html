@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,30 @@
     <title>The Greatest Quiz</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
-    <div id="headerDiv">
-        <h1 id="title">The Greatest Quiz</h1>
+    <div id="startPage">
+        <div id="headerDiv">
+            <h1 id="title">The Greatest Quiz</h1>
+        </div>
+        <div>
+            <h2>Second Div</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sed eum iure distinctio aliquam
+                nobis! Excepturi quaerat itaque quibusdam ipsa dolores, placeat iusto optio hic minus praesentium autem
+                facilis!</p>
+            <button id="startButton" onclick="change()">Start!</button>
+        </div>
     </div>
-    <div>
-        <h2>Second Div</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit sed eum iure distinctio aliquam nobis! Excepturi quaerat itaque quibusdam ipsa dolores, placeat iusto optio hic minus praesentium autem facilis!</p>
-        <button id="startButton" onclick="change()">Start!</button>
+
+    <div class="hide" id="quizPage">
+        <div id="quizHeader">
+            <h1>This is the quiz page</h1>
+        </div>
     </div>
     <footer>
         <h4>Here is my footer</h4>
     </footer>
     <script src="./assets/logic.js"></script>
 </body>
+
 </html>
