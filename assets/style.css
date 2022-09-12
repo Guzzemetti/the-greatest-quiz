@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    width: 50%;
+}
+
+button{
+    justify-self: center;
+}
+
+#startButton:active {
+    transform: translateY(2px);
+  }
+
+#startButton:hover{
+    transition-duration: 0.2s;
+    background-color: white;
+    color: #3e8e41;
+}
+
+#startButton{
+    background-color: green;
+    color: azure;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 12px;
+}
+
+
+#title{
+    background-color: aqua;
+}
